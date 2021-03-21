@@ -1,0 +1,5 @@
+//1. Jak dostać się do Pilot extends CrewMember jeśli nie przez pole private List<Pilot> pilots ?
+//2. Jak dostać się do FlightAttendant extends CrewMember jeśli nie przez getType() ?
+    instanceOf, isInstance
+
+//3. Sprytny sposób na czyszczenie unused importów ?

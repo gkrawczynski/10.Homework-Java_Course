@@ -1,0 +1,18 @@
+Napisz serwis lotniskowy:
+-> bedzie lista tripów(klasa Trip(skad, dokad, zaloga[List<CrewMember>], pasazerowie[List<Passenger>],
+ samolot [AirCraft], czas trwania, odleglosc)),
+ klasa samolot(brand, model, zasieg, ilosc miesjc),
+ klasa Person(name, surname, age)
+-> po Person dziedziczy Passenger(bilet (klasa Bilet(numer, cena, Trip)))
+-> Załogoant dziecziczy po Person (salary, exp)
+-> interfejs Pilot (#welcomePassengers()) i FlightAttendant (#showInstructions(), #giveMeals)
+
+PersonService
+#findBestPilot - znajdz najleposzego pilota, czyli tego z najwieksza iloscia wylatanych godzin
+#findBest... - znajdz najlepszego ..., czyli tego z najwieszym expem
+
+FlightService
+#showAllTrips
+#buyTicket(Passenger p)
+#showPassengerStats(Passenger p)
+#findBestTrip(skad, dokad)
